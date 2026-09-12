@@ -6,5 +6,3 @@ export interface Registrant {
   extras?: string[];
   totalPayment?: number;
 }
-
-export type { Registrant };
