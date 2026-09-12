@@ -5,8 +5,6 @@ interface Props {
 }
 
 export default function UserRegisterCard({ registrant }: Props) {
-  // registrant.gender === "Male"  -> "👨 Male"
-  // registrant.gender === "Female" -> "👩 Female"
   const genderText = registrant.gender === "Male" ? "👨 Male" : "👩 Female";
 
   return (
