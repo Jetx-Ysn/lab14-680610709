@@ -1,9 +1,10 @@
-interface Registrant {
-  id: number; 
-  fullName: string;
-  gender: string; 
-  plan: string; 
-  total: number;
+export interface Registrant {
+  firstName: string;
+  lastName: string;
+  plan?: string;
+  gender?: string;
+  extras?: string[];
+  totalPayment?: number;
 }
-export type { Registrant };
 
+export type { Registrant };
